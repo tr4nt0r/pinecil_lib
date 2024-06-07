@@ -12,7 +12,7 @@ python = ">=3.9,<3.13"
 bleak = ">=0.21.1"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.12.1"
+black = ">=23.12.1,<25.0.0"
 pytest = ">=7.4.3,<9.0.0"
 pytest-watch = "^4.2.0"
 pytest-asyncio = "^0.23.2"
